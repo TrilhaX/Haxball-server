@@ -9,7 +9,7 @@
 	var ballSpeedHistory = [];  // Nova: Armazena histórico de velocidades para média móvel (suaviza picos)
 	var maxHistoryLength = 10;  // Quantas medições guardar para a média
 	var room = HBInit({
-		roomName: "Futezin do Assistente Administrativo", // Define nome da sala
+		roomName: "Haxball do Assistente Administrativo", // Define nome da sala
 		maxPlayers: 22, // Define número máximo de players na sala
 		noPlayer: true, // Tira o Host da sala
 		public: true, //Server aparece na lista pública
