@@ -9,7 +9,7 @@
 	var ballSpeedHistory = [];  // Nova: Armazena histórico de velocidades para média móvel (suaviza picos)
 	var maxHistoryLength = 10;  // Quantas medições guardar para a média
 	var room = HBInit({
-		roomName: "Haxball do Assistente Administrativo", // Define nome da sala
+		roomName: "Ilha do Epstein", // Define nome da sala
 		maxPlayers: 22, // Define número máximo de players na sala
 		noPlayer: true, // Tira o Host da sala
 		public: true, //Server aparece na lista pública
@@ -42,7 +42,7 @@
 
 		"spawnDistance" : 350,
 
-		"bg" : { "type" : "hockey", "width" : 550, "height" : 240, "kickOffRadius" : 80, "cornerRadius" : 0 },
+		"bg" : { "type" : "hockey", "width" : 1200, "height" : 555, "kickOffRadius" : 80, "cornerRadius" : 0 },
 
 		"vertexes" : [
 			/* 0 */ { "x" : 550, "y" : 240, "trait" : "ballArea" },
@@ -335,9 +335,9 @@
 
 		"name" : "Futsal x2 FAZo7",
 
-		"width" : 420,
+		"width" : 1200,
 
-		"height" : 200,
+		"height" : 555,
 
 		"spawnDistance" : 170,
 
